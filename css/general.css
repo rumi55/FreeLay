@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+/********** DEFAULT STYLING *********/
+body{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size:1.1em; color:181818}
+body{min-width:800px; max-width:1900px; margin:auto; cursor: default}
+body{background: #05576b;}
+
+h3{margin:0; padding:1%; color:#fff}
+img{ border-radius: 7px}
+
+a{text-decoration:none}
+
+/*** error handling ****/
+.error{ background:#F88; padding:1%; text-align:center; color:#fff; border-radius: 7px;}
+
+.main{width:50%; margin:auto; margin-top:10%}
+
+/******* IMAGE SPRITE MENU **********/
+ul.menu{padding:0; margin:auto; width:964px; margin-top:5%}
+ul.menu li{margin:0px ; padding:0; list-style:none; display:inline; float:left; width:20%}
+ul.menu li, a{height:200px; display:block; padding:0; margin:0}
+
+#reply{left:0px; width:97px;background: url(../images/freelaymenu.png) 0 0;}
+#reply a:hover{width:97px; background: url(../images/freelaymenuhover.png) 0 0;}
+
+#queu{left:97px; width:92px;background: url(../images/freelaymenu.png)  -97px 0;}
+#queu a:hover{width:92px; background: url(../images/freelaymenuhover.png) -97px 0;}
+
+#scheduler{left:189px; width:124px;background: url(../images/freelaymenu.png)  -189px 0;}
+#scheduler a:hover{width:124px; background: url(../images/freelaymenuhover.png) -189px 0;}
+
+#reports{left:313px; width:86px;background: url(../images/freelaymenu.png)  -313px 0;}
+#reports a:hover{width:86px; background: url(../images/freelaymenuhover.png) -313px 0;}
+
+#gap{left:399px; width:110px;background: url(../images/freelaymenu.png)  -399px 0;}
+
+#infospace{left:509px; width:455px;background:#94b3bb ; border-top-right-radius: 30px; height:200px}
+.infospace p{color:#f66; margin:0; padding:2%}
+.infospace{background:#fff; margin:3%; padding:2%; border-radius: 15px; height: auto}
+
+/********** TOPMENU ******/
+/*.topmenu{ position:absolute; left:12%; top:0; width:500px; margin:auto;margin-top:-5px}
+.topmenu a{color:#fff; text-decoration:none;}
+.topmenu a:visited{ color:#fff; }
+.topmenu td{width:25%; text-align:center; background: #94b3bb; padding:4%;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px}
+.topmenu td:hover{background:#f99;}*/
+
+a#logout{position:absolute; top:0; right:0; padding:1.2%; font-size:14px; color:#fff; text-decoration:none}
+
+.userinfo{position:absolute; top:0; right:5px; color:#f99; text-align:center; width:50%; font-size:14px;}
+.userinfo li a{color:#fff; text-decoration:none; display: block}
+.userinfo li{display:inline; padding:5%; list-style-type:none}
+
+/*********** WELCOME **************/
+.welcome{margin:auto; width:100%; background:#f99; padding:1%; border-radius: 10px}
+.welcome td.image{width:70%}
+.welcome img{width:80%; height:250px}
+
+.check{ width:100%; text-align:center}
+
+input.btn{width:40%; margin:auto;
+background: -moz-linear-gradient(center top , #05576b 0pt, #06C 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top, #05576b 0pt, #06C 100%);
+background: -o-linear-gradient(top, #05576b, #06C 100%);
+background: -ms-linear-gradient(top, #05576b, #0066CC);
+background: linear-gradient(to bottom, #05576b 0pt, #06C 100%);
+color:#fff; border:#05576b solid 2px}
+
+input.btn:hover{background: -moz-linear-gradient(center top ,#f88 0pt,#D00 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top,#f88 0pt,#D00 100%);
+background: -o-linear-gradient(top,#f88,#D00 100%);
+background: -ms-linear-gradient(top,#f88, #D00);
+background: linear-gradient(to bottom,#f88 0pt,#D00 100%);
+border:#f88 solid 2px}
+
+.example{width:100%; margin:auto; background:#f99; border-radius: 7px; padding: 2%;}
+.example .theno{background:white; border-radius: 5px; color:#000; text-align:center;
+width:60%;; margin:auto; padding:2%; font-size:25px; font-weight:bold}
+
+.smsreg{width:30%; margin:auto; font-size:14px; font-weight:bold}
+.smsreg a{color:#f88; margin:0; padding:0; height:auto}
+.smsreg a:hover{color: #0C0;}
+
+/************ FORGET PASSWORD **********/
+.forget{width:100%; background:#f88; padding:5%; margin:5%; border-radius:10px}
+.forget td.name{width:20%;}
+.forget td{width:80%;}
+.forget p{ color:#fff}
+
+/*********** HOME PAGE ***************/
+
+p.telno{color:#000; background:#f99; font-size:36px; font-weight:bold;
+padding:3%; border-radius: 7px; text-align:center}
+
+#rule1:hover{ background:#f99; border-radius: 15px}
+#rule2:hover{ background:#f99; border-radius: 15px}
+
+.content{ clear:left; background:#94b3bb; width:964px; margin:auto;
+border-bottom-right-radius: 35px;
+border-bottom-left-radius: 35px;
+margin-bottom:3%; margin-top:5%; padding:0}
+
+.rule{padding:1%; width:100%; align: left; text-align:center; margin:auto}
+.rule td{width:50%; padding:1%;}
+.require{ width:60%; margin: auto;}
+
+input{ height:30px; width:100%; margin:auto; border-radius:5px;
+border:black solid 1px; font-size:1.2em; font-weight:bold; color:#888}
+
+textarea{ height:100px; width:100%; margin:auto; border-radius:7px; border-radius: 5px; border:black solid 1px;
+font-size:1.2em; font-weight:bold; color:#888}
+
+select{ padding:2px; margin:2px; font-size:1.2em; color:#888; border-radius: 5px; font-weight:bold; border:black solid 1px}
+
+input.submit{width:40%; margin:auto; color:#fff; border:2px;
+background: -moz-linear-gradient(center top , #05576b 0pt, #06C 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top, #05576b 0pt, #06C 100%);
+background: -o-linear-gradient(top, #05576b, #06C 100%);
+background: -ms-linear-gradient(top, #05576b, #0066CC);
+background: linear-gradient(to bottom, #05576b 0pt, #06C 100%);
+border: #06c solid 2px}
+
+input.submit:hover{
+background: -moz-linear-gradient(center top ,#f88 0pt,#D00 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top,#f88 0pt,#D00 100%);
+background: -o-linear-gradient(top,#f88,#D00 100%);
+background: -ms-linear-gradient(top,#f88, #D00);
+background: linear-gradient(to bottom,#f88 0pt,#D00 100%);
+border:#f88 solid 2px}
+
+span.err{padding:1%; color:#D00; text-align:center; margin:1%;}
+span.noerr{padding:1%;color:#44F; background:#fff; border-radius: 6px; text-align:center; margin:1%; padding-left:0; margin-left:0 }
+
+span.wht{background:#fff; padding:1%; border-radius: 5px}
+
+/******************** QUEING RESULTS **************/
+.note{background:#fff; padding:1%; color:#f88; width:70%; margin:auto; border-radius: 10px}
+span.blk{color:#444; font-size:14px}
+
+.subm{width:60%; margin:auto}
+.subm td{width:50%; padding:2%; text-align:center;}
+.subm a{text-align:center; padding:4%; margin:0; vertical-align:middle}
+
+.results{width:80%; margin:auto; background:#fff; border-radius: 10px; padding:1%; margin-top:2px}
+.results td{width:50%; text-align: left;}	
+
+#csv_results h3{ margin-left:100px; color:181818}
+
+a.submitit{height: 15px; margin:0; text-align:center; vertical-align:middle; text-decoration:none; padding-top:0}
+.submitit{width:100px; margin:auto; color:#fff; border:2px; cursor: pointer; padding:1%; border-radius: 7px;
+background: -moz-linear-gradient(center top , #05576b 0pt, #06C 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top, #05576b 0pt, #06C 100%);
+background: -o-linear-gradient(top, #05576b, #06C 100%);
+background: -ms-linear-gradient(top, #05576b, #0066CC);
+background: linear-gradient(to bottom, #05576b 0pt, #06C 100%);
+border: #06c solid 2px}
+
+.submitit:hover{
+background: -moz-linear-gradient(center top ,#f88 0pt,#D00 100%) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(top,#f88 0pt,#D00 100%);
+background: -o-linear-gradient(top,#f88,#D00 100%);
+background: -ms-linear-gradient(top,#f88, #D00);
+background: linear-gradient(to bottom,#f88 0pt,#D00 100%);
+border:#f88 solid 2px}
+
+
+/************************ RESULTS ************************/
+.report{width:96%; margin:auto; background:#fff; border-radius: 10px; padding:1%; margin-top:2px; font-size:12px}
+.report td.msg{ width:60%}
+.report td{width:10%; text-align:center}
+
+.parsing{width:96%; margin:auto; background:#fff; border-radius: 10px; padding:1%; margin-top:2px; font-size:14px; text-align:center}
+
+
+/******** PAGINATION *************/
+.page a{margin:0; padding:0; height:auto}
+
+.page{width:44%; margin:auto; float:right; margin-right:2%}
+
+.pages td{background: #f88; border-radius: 5px; text-align:center; vertical-align:middle; height:10px; width:20px}
+.page a{color:#fff;}
+
+.pages td{width:2%; margin:auto;}

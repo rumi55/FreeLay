@@ -1,0 +1,35 @@
+[11-Jul-2012 23:39:54] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 15
+[11-Jul-2012 23:39:54] PHP Notice:  Could not connect to MySQL: Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 19
+[11-Jul-2012 23:39:54] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:39:54] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:39:54] PHP Notice:  Query: SELECT * FROM sms WHERE agent_phone LIKE '+254707898931%' AND status='0' AND delivery_date < NOW() ORDER BY modified_date ASC LIMIT 500 
+<br/>MySQL Error:  in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:39:54] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/globamh1/public_html/freelay/envaya.php on line 74
+[11-Jul-2012 23:40:30] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 15
+[11-Jul-2012 23:40:30] PHP Notice:  Could not connect to MySQL: Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 19
+[11-Jul-2012 23:40:30] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:40:30] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:40:30] PHP Notice:  Query: SELECT * FROM sms WHERE agent_phone LIKE '+254707898931%' AND status='0' AND delivery_date < NOW() ORDER BY modified_date ASC LIMIT 500 
+<br/>MySQL Error:  in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:40:30] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/globamh1/public_html/freelay/envaya.php on line 74
+[11-Jul-2012 23:41:44] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 15
+[11-Jul-2012 23:41:44] PHP Notice:  Could not connect to MySQL: Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 19
+[11-Jul-2012 23:41:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:41:44] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:41:44] PHP Notice:  Query: SELECT * FROM sms WHERE agent_phone LIKE '+254707898931%' AND status='0' AND delivery_date < NOW() ORDER BY modified_date ASC LIMIT 500 
+<br/>MySQL Error:  in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:41:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/globamh1/public_html/freelay/envaya.php on line 74
+[11-Jul-2012 23:43:29] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 15
+[11-Jul-2012 23:43:29] PHP Notice:  Could not connect to MySQL: Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 19
+[11-Jul-2012 23:43:29] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:29] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:29] PHP Notice:  Query: SELECT * FROM sms WHERE agent_phone LIKE '+254707898931%' AND status='0' AND delivery_date < NOW() ORDER BY modified_date ASC LIMIT 500 
+<br/>MySQL Error:  in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:29] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/globamh1/public_html/freelay/envaya.php on line 74
+[11-Jul-2012 23:43:31] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 15
+[11-Jul-2012 23:43:31] PHP Notice:  Could not connect to MySQL: Access denied for user 'globamh1'@'localhost' (using password: YES) in /home4/globamh1/public_html/freelay/dbconn.php on line 19
+[11-Jul-2012 23:43:31] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:31] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:31] PHP Notice:  Query: SELECT * FROM sms WHERE agent_phone LIKE '+254707898931%' AND status='0' AND delivery_date < NOW() ORDER BY modified_date ASC LIMIT 500 
+<br/>MySQL Error:  in /home4/globamh1/public_html/freelay/envaya.php on line 72
+[11-Jul-2012 23:43:31] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/globamh1/public_html/freelay/envaya.php on line 74

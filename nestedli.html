@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title> Tabling Nested Listing</title>
+
+<style>
+
+body{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; width:70%; margin:auto}
+
+ul{border-radius: 10px}
+ul li{list-style-type:none; padding:5px} /*remove the listing elements e.g dots, circle */
+
+.story{width:100%; margin:auto}
+.story td{width:50%;} /*define the column width this way by dividing 100% by the number of columns you want to have*/
+
+.one{background:#F88;}
+.two{background:#FC0;}
+.three{background:#f88; margin-left:10px} /*you can push it further inside by giving the specific <ul> a class eg. <ul class="three">, and using 'margin-left: ##px' attribute*/
+
+</style>
+
+</head>
+
+<body>
+
+<h3> Nested Listing put into Two Columns of a Table</h3>
+
+<p> I have color-coded the listings to highlight the indentation of each</p>
+<table class="story">
+<tr>
+<td>
+
+<ul class="one"><!-- 1 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+<ul class="two"><!-- 2 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+<ul class="three"><!-- 3 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+</td>
+
+<td>
+
+<ul><!-- 1 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+<ul><!-- 2 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+<ul><!-- 3 -->
+<li>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
